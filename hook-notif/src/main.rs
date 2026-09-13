@@ -112,7 +112,6 @@ fn check_for_new_notifications(
                             };
                             if new {
                                 print_user_notification(&notif);
-                                let _ = listener.RemoveNotification(id);
                             }
                         }
                     }
